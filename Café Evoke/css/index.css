@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/* CSS Document */
+
+footer,header,nav{display:block;}
+
+html{font-size:100%;overflow-y:scroll;-webkit-overflow-scrolling:touch;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+
+a:focus{outline:none;}
+
+a:hover,a:active{outline:0;}
+
+h1,h2,h3,h4,h5{font-weight:500 !important;}
+
+ul,ol{margin:1em 0;padding:0 0 0 40px;}
+
+img{border:0;-ms-interpolation-mode:bicubic;}
+
+figure{margin:0;}
+
+form{margin:0;}
+
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;border-radius:0;}
+
+button, input { line-height: normal; *overflow: visible; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+
+input[type="search"] { -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+textarea { overflow: auto; vertical-align: top; }
+
+.clearFix:after{content:"";display:block;clear:both;}
+
+/*Default Body Style*/
+body{margin:0;background:#fff;overflow:hidden;position:relative;}
+
+body,button,input,select,textarea{color:#767777;}
+
+a{color:#55a495;text-decoration:none;-webkit-transition:color 100ms linear;-moz-transition:color 100ms linear;}
+
+a:hover{color:#8bc5bf;}
+
+#searchDescription{display:none;}
+
+.header_bg{background:#8bc5bf;position:absolute;top:0;left:0;width:100%;height:300px;z-index:-1;}
+
+.main{border:1px solid #616363;margin:40px auto;padding:0 25px;position:relative;width:1000px;z-index:2;}
+
+header a{color:#fff;position:relative;font-family:"微软雅黑";}
+
+header a:hover{color:#55a495;}
+
+header .logo{display:block;margin:-85px auto;outline:none;position:relative;width:450px;z-index:1;}
+
+header .social{border-bottom:1px solid #616363;font-size:0.7em;letter-spacing:2px;margin-top:85px;text-align:center;text-transform:uppercase;width:22%;}
+
+header .siptruck{float:left;margin-left:-25px;padding-left:25px;}
+
+header .social a{display:block;}
+
+header .siptruck a{border-left:1px solid #616363;padding:7px 0 10px;}
+
+header .cycling{float:right;margin-right:-25px;padding-right:25px;}
+
+header .cycling a{border-right:1px solid #616363;padding:7px 0 10px;}
+
+header nav{padding-top:25px;position:relative;z-index:2;}
+
+header nav a{display:block;font-family:"微软雅黑";font-size:0.7em;font-weight:bold;letter-spacing:2px;line-height:50px;text-transform:uppercase;}
+
+header nav a:first-child{margin-left:0;}
+
+header nav a span{background:#55a495;display:block;height:5px;opacity:0;margin:-10px auto 0;}
+
+header nav a:hover span{opacity:1;}
+
+header .left{clear:left;float:left;text-align:left;}
+
+header .left > *{float:left;}
+
+header .right{clear:right;float:right;text-align:right;}
+
+header .right > *{float:right;}
+
+header nav >span{background:url(../img/slash.png) no-repeat;display:block;margin:0 10px;width:20px;height:50px;}
+
+header .catering{color:#f5cd82;}
+
+header .catering span{background:url(../img/arrow.png) no-repeat;height:10px;}
+
+header .catering:hover{color:#f5cd82;}
+
+header .drop{background:url(../img/drop.png) no-repeat center center;clear:both;height:30px;margin:80px 0 -35px;position:relative;z-index:100;}
+
+.content{margin:20px 0 0 0;}
+
+.content .slider{position:relative;z-index:2;}
+
+.slider .picslider{position:relative;background:url(../img/beer.jpg) no-repeat;overflow:hidden;height:400px;background-position:center center !important;}
+
+.slider .picslider img{position:absolute;top:0;left:0;}
+
+.nivo_controlNav{background:rgba(0,0,0,0.3);border-top:5px solid rgba(0,0,0,0.1);position:absolute;bottom:0;padding:10px 0;text-align:center;width:100%;z-index:100; }
+
+.nivo_controlNav a{background:url(../img/bullets.png) no-repeat;cursor:pointer;display:inline-block;margin:0 10px;overflow:hidden;position:relative;text-indent:-9999px;width:15px;height:15px;-webkit-transition:all 300ms linear;-moz-transition: all 300ms linear;}
+
+.nivo_controlNav a:hover,.nivo_controlNav .active{background-position:0 -15px;}
+
+.slider .info{border-bottom:1px solid #616363;margin:25px -25px;padding:0 25px;}
+
+.slider h2{background:url(../img/yellow-tab.png) no-repeat left 8px;color:#767777;float:left;font-size:1.2em;line-height:47px;letter-spacing:4px;margin:25px 0 0 -45px;overflow:hidden;padding-left:60px;position:relative;z-index:-1;}
+
+.slider h2 .bar{background:#e7b44c;position:absolute;top:8px;left:20px;width:40px;height:30px;}
+
+.slider h2 .number{float:left;font-size:1.2em;font-weight:bold;font-family:"微软雅黑";line-height:45px;letter-spacing:0px;text-align:right;width:48px;}
+
+.slider h2 img{float:left;margin:0 12px 0 10px;}
+
+.slider h2 .title{display:block;float:left;height:35px;overflow:hidden;text-transform:uppercase;}
+
+.slider h2 .title span{display:block;margin-bottom:10px;font-weight:bold;font-family:"微软雅黑";}
+
+.slider .description{border:1px solid #616363;border-bottom:none;color:#616363;float:right;font:normal 0.8em Courier;position:relative;padding:10px;width:68%;}
+
+.slider .description p{background:#f2f3f4;height:45px;margin:0;overflow:hidden;padding:15px 60px 15px 30px;}
+
+.description p span{display:block;margin-bottom:20px;}
+
+.slider .description >span{background:url(../img/description-line.png) no-repeat center center;position:absolute;top:0;right:30px;width:21px;height:97px;}
+
+.quote{border-bottom:1px solid #616363;color:#e7b44c;font-size:1.5em;margin:0 -25px;padding:0 50px 10px;}
+
+.quote h4{line-height:1.5em;padding:5px 0;text-transform:uppercase;font-family:Arial;}
+
+.quote div{background:url(../img/quote-lines.png) no-repeat;height:59px;float:right;margin-top:-10px;padding-left:10px;}
+
+.quote div p{background:#8bc5bf url(../img/quote-tab.png) no-repeat right center;color:#fff;height:26px;font-size:0.6em;letter-spacing:1px;line-height:26px;margin:10px -70px 10px 0;padding:5px 45px 8px 40px;text-transform:uppercase;font-family:Arial;}
+
+.middle{background:url(../img/line.png) repeat-y center center;clear:both;margin:75px 0 0 0;overflow:hidden;}
+
+.middle h2{font-size:1.2em;letter-spacing:4px;margin:0;text-transform:uppercase;font-weight:bold;font-family:"微软雅黑";}
+
+.middle .blog{float:left;width:50%;}
+
+.middle .blog h2{border-bottom:1px solid #616363;padding:25px 25px 30px 25px;}
+
+.middle .blog h4{background:#f2f3f4;color:#55a495;margin:35px 25px 15px 0;padding:10px 25px 10px;text-transform:uppercase;font-family:Arial;}
+
+.middle .blog p{color:#767777;font:normal 0.8em Courier;line-height:1.8em;margin:0 25px 0 0;padding:0 25px;}
+
+.middle .blog time{color:#aaa;display:block;font-size:0.6em;letter-spacing:1px;text-transform:uppercase;margin:20px 25px 20px 25px;font-family:Arial;}
+
+.middle .info{color:#767777;float:right;width:50%;}
+
+.middle .info >div{font-size:0.8em;float:left;text-transform:uppercase;width:45%;}
+
+.middle .info >div:first-child{font-size:0.7em;margin:0 0 0 25px;width:47%;}
+
+.middle .info >div span{background:url(../img/clock.png) no-repeat left 10px;border-right:1px solid #616363;display:block;float:left;margin-right:15px;padding-right:5px;width:25px;height:150px;}
+
+.middle .info >div:first-child span{background:url(../img/no.png) no-repeat left 10px;}
+
+.middle .info >div p{margin-top:10px;}
+
+.middle .info >div:first-child p{margin-top:16px;}
+
+.middle .info >div:first-child a{font-size:1em;font-family:Arial;}
+
+.middle .info >div em{display:block;color:#55a495;font-style:normal;font-family:Arial;}
+
+#phone,#weekends{font-family:"微软雅黑";}
+
+.clear{clear:both;height:0 !important;margin:0 !important;padding:0 !important;}
+
+.middle .info form{background:#f2f3f4;font-family:Courier;margin:60px 0 0 25px;padding:35px 50px 0;}
+
+label{cursor:pointer;}
+
+.middle form label{clear:left;display:block;font-size:0.9em;margin:5px 0 0 0;float:left;width:15%;}
+
+.middle form .text{background:none;border:none;border-bottom:1px solid #616363;display:block;margin:20px 0 0 0;outline:none;width:84%;}
+
+.middle form p{background:url(../img/form-dots.png) repeat-x left center;margin:30px 0 0 0;passing-bottom:0;text-align:right;}
+
+.middle form .submit{background:#e7b44c;border:none;border-left:15px solid #f2f3f4;color:#fff;font:normal 0.8em Arial;letter-spacing:2px;padding:4px 60px 6px;text-transform:uppercase;}
+
+.middle form .response-wrapper{overflow:hidden;padding:20px 0 10px 0;height:50px;}
+
+#response{color:#c03d3d;margin-top:-100px;}
+
+footer{border-top:1px solid #616363;clear:both;margin:50px -25px 0;padding:0 25px;}
+
+footer .logo{border-left:1px solid #616363;border-right:1px solid #616363;float:left;text-align:center;width:20%;}
+
+footer .logo span{background:#92c5bf;border-bottom:10px solid #8d8e46;display:block;margin:20px auto 5px;width:80%;height:10px;}
+
+footer nav{float:left;margin:40px 0 0 20px;}
+
+footer nav a{color:#fff;display:block;font-size:0.4em;font-weight:bold;font-family:"微软雅黑";letter-spacing:3px;line-height:1.6em;text-transform:uppercase;}
+
+footer .seal{margin:-32px -25px 0 0;position:relative;float:right;z-index:1000;}
+
+footer p{color:#fff;border-right:1px solid #616363;font:normal 0.7em Courier;float:right;margin:0 20px 0 0;padding:68px 20px 32px 0;text-align:right;width:35%;}
+
+footer p span{display:block;margin-top:10px;}
+
+.social_icons{margin:0 auto;padding:0;width:135px;}
+
+.social_icons li{display:inline;}
+
+.social_icons li img{height:35px;width:35px;}
+
+.thanks{color:#fff;font-size:0.8em;letter-spacing:8px;margin:20px 0;text-align:center;text-transform:uppercase;}
+
+.footer_bg{background:#e7b44c;position:absolute;bottom:0;left:0;width:100%;height:250px;z-index:-1;font-family:Arial;}
+
+/*Media Queries*/
+
+@media only screen and (min-width:320px) and (max-width:730px) {
+	.main{width:80%;}
+	.main .slider,.main .blog{display:none;}
+	
+	header{}
+	header .social{margin-top:45px;}
+	header .social a{background-size:30px 30px;padding:5px 15px !important;text-indent:-9999px;width:60px;height:30px;}
+	header .siptruck a{background:url(../img/truck_icon.png) no-repeat center center;}
+	header .cycling a{background:url(../img/bike.png) no-repeat center center;float:right;width:47px;}
+	
+	header .logo{background:url(../img/logo-small.png) no-repeat;background-size:100px 150px;margin:-45px auto;width:100px;height:150px;}
+	header .logo img{display:none;}
+	
+	header nav{float:none !important;overflow:hidden !important;margin:0 auto;text-align:center !important;}
+	header .left{margin:45px auto 10px;width:240px;}
+	header .right{width:256px;}
+	header nav a{line-height:20px;}
+	header nav span{margin:0 10px 0 0;height:20px;}
+	header .drop{display:none;}
+	
+	.quote{border:none !important;padding:0 !important;margin:20px 5px 29px !important;}
+	.quote h4{color:#55a495;height:54px;font-size:0.5em;margin:0 auto;padding:0 !important;text-align:center;width:205px;}
+	.quote >div{display:none;}
+	
+	.middle{background:none !important;border-top:1px solid #616363;margin:0 -25px !important;padding:0 25px;}
+	.middle .info{float:none !important;width:100% !important;}
+	.middle .info >div{border-bottom:1px solid #616363;display:block !important;float:none !important;margin:0 -25px !important;overflow:hidden;padding:0 25px;width:100% !important;}
+	.middle .info form{display:none;}
+	
+	footer{border:none;margin-top:18px;}
+	footer .logo,footer .seal{display:none;}
+	footer p{border:none !important;margin:0 !important;padding:0 0 20px !important;text-align:center;width:100% !important;}
+	footer nav{float:none !important;line-height:10px !important;margin:0 auto 10px !important;text-align:center;width:80%;}
+	footer nav a{display:inline;line-height:20px !important;}
+	
+	.thanks{display:none;}
+}
+	/*xiao end*/
+	
+	/*zhong*/
+@media only screen and (min-width:730px) and (max-width:1024px) {
+	.header img{width:100%;height:auto;}
+	
+	.main{width:700px;}
+	
+	header .social{font-size:9px;}
+	header .logo{width:350px;height:200px;}
+	header .logo img{width:350px;}
+	
+	.picslider{width:100% !important;}
+	
+	.slider .info h2 .title,.slider .info h2 .number{font-size:16px;}
+	.slider .info h2 img{margin:0;}
+	.slider .info .description{font-size:10px;}
+	
+	.quote h4{font-size:20px;}
+	
+	.middle h2{font-size:0.9em !important;}
+	.middle .info >div:first-child{margin-bottom:20px !important;}
+	.middle .info >div{font-size:0.9em !important;margin-left:25px;width:100% !important;}
+	.middle .info form laber{width:20% !important;}
+	.middle .info form input{width:78% !important;}
+	
+	footer{height:138px;}
+	footer .logo{height:138px;}
+	footer .logo span{margin-top:9px;}
+	footer .logo img{width:75px;}
+	footer .seal{width:153px !important;}
+	footer nav{margin-top:35px;}
+	footer nav a{font-size:8px !important;}
+	footer p{height:88px;font-size:0.6em;padding:50px 20px 0 0;}
+}
+		
+
+
+
+
+
+
